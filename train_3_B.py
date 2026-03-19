@@ -19,7 +19,7 @@ from model import Direct_Conv3D_GRU
 import random
 torch.backends.cuda.matmul.allow_tf32 = False
 torch.backends.cudnn.allow_tf32 = False
-kaggle_dir='/kaggle/working/pth_2324_season/'
+kaggle_dir='/kaggle/working/pth_2324_loss7_season/'
 ##########################################################################################
 def standardize(data):
     mean = data.mean()
