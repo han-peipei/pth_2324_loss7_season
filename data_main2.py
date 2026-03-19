@@ -37,9 +37,9 @@ _lat_re = re.compile(rf'^lat_({_station_pat})\.npy$')
 _lon_re = re.compile(rf'^lon_({_station_pat})\.npy$')
 # _station_pat = r'(?:[A]\d{4})'
 # _station_pat =['A2662','A3171']
-_data_re  = re.compile(rf'^train_data_({_var_pat})_({_station_pat})_{TI}\_spring.npy$')
-_label_re = re.compile(rf'^train_labels_({_station_pat})_{TI}\_spring.npy$')
-_time_re  = re.compile(rf'^train_time_({_station_pat})_{TI}\_spring.npy$')
+_data_re  = re.compile(rf'^train_data_({_var_pat})_({_station_pat})_{TI}\_summer.npy$')
+_label_re = re.compile(rf'^train_labels_({_station_pat})_{TI}\_summer.npy$')
+_time_re  = re.compile(rf'^train_time_({_station_pat})_{TI}\_summer.npy$')
 
 # data_idx = defaultdict(dict)  
 data_idx = {}   
