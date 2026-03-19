@@ -26,7 +26,7 @@ def interpolate_to_station(coords, tree, nwp_data):
 
 # ---------------- 配置区 ----------------
 # ROOT = "/thfs1/home/qx_hyt/hpp/data/station_AI/stations_25_train_1_12/54456"   # ← 改成你的目录
-ROOT = "/kaggle/input/datasets/niaosilius/stations-25-train-12-season"   # ← 改成你的目录
+ROOT = "/kaggle/input/datasets/niaosilius/stations-25-train-12-season/stations_25_train_12_season"   # ← 改成你的目录
 csv_path = "2023.csv"  # ← 站点信息CSV
 VARS = ("10u", "10v")                                         # 使用的变量
 # VARS = ("10u", "10v",'2DPT','2RH','CAPE','MSL','2T','VIS')                                         # 使用的变量
